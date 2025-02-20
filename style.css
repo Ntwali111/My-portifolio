@@ -1,0 +1,38 @@
+/* General Styles */
+:root {
+    --primary-color: #1a73e8;
+    --background-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    --card-bg: rgba(255, 255, 255, 0.1);
+    --text-color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+/* Rest of the CSS styles */
+/* ... (other existing styles) ... */
